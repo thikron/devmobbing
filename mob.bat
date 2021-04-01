@@ -54,7 +54,7 @@ ECHO ..Session beendet
 GOTO end
 
 :branchfehlt
-ECHO Fehler: Gebe einen branch Namen ein!
+ECHO Fehler: Gebe eine commit Message in "" ein!
 GOTO end
 
 :end
