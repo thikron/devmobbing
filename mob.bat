@@ -20,7 +20,7 @@ GOTO end
 
 :next
 ECHO next
-git add .
+git add --all
 git commit -m"wip"
 git push
 GOTO end
