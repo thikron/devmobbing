@@ -11,7 +11,8 @@ GOTO parse
 
 :start
 ECHO Starte Session..
-git checkout master
+
+IF "%~2"=="" (git checkout master) else (git checkout "%~2")
 git pull
 git checkout -b features/mob-session
 git push -u origin features/mob-session
